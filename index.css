@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+}
+#allcards,#allcardsR {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    margin: 2% 2% 2% 2%;
+    justify-content: space-evenly;
+}
+#allcards>div>img,#allcardsR >div>img{
+    height: 200px;
+    width: 300px;
+}
+#orderBT>button{
+    font-size: 30px;
+}
